@@ -3,7 +3,8 @@
 `Hash#smash` takes a deeply nested hash and compresses it to a single level.
 The new key names will be the old hierarchy of keys as strings separated by
 periods. This is useful for when you are going to send a hash to another data
-format, such as JSON that will be used on the client-side.
+format to be used by another language, such as JavaScript for use with the
+[Polyglot](https://github.com/airbnb/polyglot.js) library for I18n.
 
 ## Installation
 
